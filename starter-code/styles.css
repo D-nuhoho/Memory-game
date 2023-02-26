@@ -1,0 +1,79 @@
+/* Atkinson Hyperlegible Font */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');
+
+body{
+    background-color: #152938;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+.gameBoard{
+    background-color: #FCFCFC;
+    margin: auto;
+}
+
+#numbers{
+    background-color: #304859;
+    border-radius: 26px;
+    color:  #FCFCFC;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 5px 30px;
+    border: 0;
+}
+#icons{
+    background-color: #BCCED9;
+    border-radius: 26px;
+    color: #FCFCFC;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+    padding: 5px 30px;
+    border: 0;
+}
+.btn{
+    border-radius: 26px;
+    padding: 5px 30px;
+    border: 0;
+    color: #FCFCFC;
+}
+.grid-sizebtn{
+    padding: 5px 30px;
+    border-radius: 26px;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+    border: 0;
+    width: 40%;
+    color:#FCFCFC;
+}
+.start-btn{
+    padding: 5px 30px;
+    background-color: #FDA214;
+    border-radius: 35px;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 700;
+    border: 0;
+    color:  #FCFCFC;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.options{
+    display: block;
+    margin: auto;
+}
+/* For Desktop */
+@media screen and (min-width:769px) {
+    .gameBoard{
+        height:50vh;
+        width: 40%;
+    }
+    .options{
+        color: #7191A5;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+}
