@@ -7,7 +7,10 @@ body{
 }
 .gameBoard{
     background-color: #FCFCFC;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #numbers{
@@ -35,6 +38,10 @@ body{
     padding: 5px 30px;
     border: 0;
     color: #FCFCFC;
+    background-color: #BCCED9;
+}
+.one {
+    background-color: #304859;
 }
 .grid-sizebtn{
     padding: 5px 30px;
@@ -45,6 +52,10 @@ body{
     border: 0;
     width: 40%;
     color:#FCFCFC;
+    background-color: #BCCED9;
+}
+.fourbyfour{
+    background-color: #304859;
 }
 .start-btn{
     padding: 5px 30px;
@@ -57,7 +68,7 @@ body{
     color:  #FCFCFC;
     width: 80%;
     display: block;
-    margin: auto;
+    margin: 20px auto;
 }
 .options{
     display: block;
@@ -74,6 +85,8 @@ body{
         font-weight: 700;
         font-size: 20px;
         line-height: 25px;
+        margin: 10px 0;
+
     }
-    
+   
 }
