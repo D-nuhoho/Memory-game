@@ -2,8 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');
 
 body{
-    background-color: #152938;
+    background-color: #304859;
     font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+body:hover{
+    background-color: #152938;
+}
+.heading{
+    color: #FCFCFC;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-size: 30px;
 }
 .gameBoard{
     background-color: #FCFCFC;
@@ -11,8 +21,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 20px;
 }
-
+.homepage{
+    margin: 0 5%; 
+}
 #numbers{
     background-color: #304859;
     border-radius: 26px;
@@ -22,6 +36,10 @@ body{
     font-weight: 700;
     padding: 5px 30px;
     border: 0;
+}
+#numbers:hover{
+    background-color: #152938;
+    cursor: pointer;
 }
 #icons{
     background-color: #BCCED9;
@@ -33,15 +51,30 @@ body{
     padding: 5px 30px;
     border: 0;
 }
+#icons:hover{
+    background-color: #6395B8;
+    cursor: pointer;
+}
 .btn{
     border-radius: 26px;
     padding: 5px 30px;
     border: 0;
     color: #FCFCFC;
     background-color: #BCCED9;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.btn:hover{
+    background-color: #6395B8;
+    cursor: pointer;
 }
 .one {
     background-color: #304859;
+}
+.one:hover{
+    background-color:#152938;
+    cursor: pointer;
 }
 .grid-sizebtn{
     padding: 5px 30px;
@@ -54,8 +87,16 @@ body{
     color:#FCFCFC;
     background-color: #BCCED9;
 }
+.grid-sizebtn:hover{
+    background-color: #6395B8;
+    cursor: pointer;
+}
 .fourbyfour{
     background-color: #304859;
+}
+.fourbyfour:hover{
+    background-color: #152938;
+    cursor: pointer;
 }
 .start-btn{
     padding: 5px 30px;
@@ -69,6 +110,11 @@ body{
     width: 80%;
     display: block;
     margin: 20px auto;
+}
+.start-btn:hover{
+    background-color: #FFB84A;
+    cursor: pointer;
+
 }
 .options{
     display: block;
@@ -88,5 +134,20 @@ body{
         margin: 10px 0;
 
     }
+    #numbers{
+        width: 200px;
+        margin-right: 20px;
+    }
    
+    #icons{
+        width: 200px;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .fourbyfour{
+        margin-right: 20px;
+    }
 }
